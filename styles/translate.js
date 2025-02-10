@@ -78,7 +78,7 @@ const translations = {
 
         setText("a[href='#about_me']", translations[currentLanguage].about_me);
         setText("a[href='#projects']", translations[currentLanguage].projects);
-        setText("a[href='#contact']", translations[currentLanguage].contact);
+        setText("a[href='#follow']", translations[currentLanguage].contact);
         setText('#contact h2', translations[currentLanguage].contact_heading);
         setText('#contact p', translations[currentLanguage].contact_paragraph);
         setText('.name #big', translations[currentLanguage].name_heading);
