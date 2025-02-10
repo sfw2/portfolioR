@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="source/5449882589306415337-removebg-preview.png" type="image/png">
+</head>
+<body>
+<!-- ГЛАВНАЯ -->
+    <div class="backgraund"></div>
+
+    <div class="grid-container"></div>
+    <script src="styles/script.js"></script>
+    
+    <img class="logo" src="source/5449882589306415337-removebg-preview.png" alt="logo">
+    
+    <div class="navbar">
+        <div class="drop">
+            <button class="nav-btn">&#9776;</button>
+            <div class="nav-list">
+                <a href="#about_me">О мне</a>
+                <a href="#projects">Проекты</a>
+                <a href="#follow">Контакты</a>
+                <p id="languageToggle">RU</p>
+            </div>
+        </div>
+    </div>
+    <script src="styles/translate.js"></script>
+
+    <div class="name">
+        <p id="big">Роман Дулин</p>
+        <p id="big1">Просто ровный типок</p>
+        <button class="large-button">Обо мне</button>
+    </div>
+    
+    <div class="contact">
+        <ul>
+            <li><a href="https://web.telegram.org/" target="_blank" rel="noopener" itemprop="sameAs">
+                <img src="source/telegram.png" alt="telegram" class="default-img">
+                <img src="source/telegram_2.png" alt="telegram-hover" class="hover-img">
+            </a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" itemprop="sameAs">
+                <img src="source/instagram.png" alt="instagram" class="default-img">
+                <img src="source/instagram_2.png" alt="instagram-hover" class="hover-img">
+            </a></li>
+            <li><a href="https://discord.com/" target="_blank" rel="noopener" itemprop="sameAs">
+                <img src="source/discord.png" alt="discord" class="default-img">
+                <img src="source/discord_2.png" alt="discord-hover" class="hover-img">
+            </a></li>
+            <li><a href="https://x.com" target="_blank" rel="noopener" itemprop="sameAs">
+                <img src="source/twitter-alt.png" alt="X" class="default-img">
+                <img src="source/twitter-alt_2.png" alt="X-hover" class="hover-img">
+            </a></li>
+        </ul>
+    </div>
+
+<!-- ПАРАЛЛАКС -->
+
+<div class="parallax">
+    <div class="glass-two">
+        Обо мне
+    </div>
+</div>
+
+<!-- ОБО МНЕ -->
+ <section id="about_me">
+     <div class="intro" id="intro"></div>
+       <script src="source/three.r134.min.js"></script>
+       <script src="source/vanta.waves.min.js"></script>
+       <script src="source/app.js"></script>
+     
+       <div class="glass-effect">
+        <div class="content">
+            <h1>Роман Дулин</h1>
+            <p id="a"> <span style="font-weight: bold;">Возраст:</span> 19 лет</p>
+            <p id="b"> <span style="font-weight: bold;">Специализация:</span> Программист</p>
+            <p id="c"> <span style="font-weight: bold;">Образование:</span> Образование: Факультет информационных технологий и программирования</p>
+            <p id="d"> <span style="font-weight: bold;">Языки программирования:</span> Языки программирования: Python, C++</p>
+            <p id="e"> <span style="font-weight: bold;">Опыт:</span> Fiverr, Freelancer, Toptal, Upwork</p>
+            <p id="f"> <span style="font-weight: bold;">Лингвистические навыки:</span> </p>
+            <ul>
+                <li id="g">Украинский — родной язык.</li>
+                <li id="m">Русский — родной язык.</li>
+                <li id="n">Английский — свободное владение.</li>
+                <li id="o">Норвежский — уровень A2, продолжаю обучение.</li>
+            </ul>
+        </div>
+        <img class="foto" src="source/43fd7374-8814-45c1-b9d2-55f92c116d02.jpg" alt="foto">
+    </div>
+ </section>
+
+<!-- ПАРАЛЛАКС2 -->
+<div class="parallax-two">
+    <div class="glass-three">
+        Проекты
+    </div>
+</div>
+
+<!-- ПРОЕКТЫ -->
+ <section id="projects">
+    <div class="fon">
+    </div>
+         <div class="gallery" id="gallery">
+             <div class="image-container center">
+                 <img src="source/Gemini_Generated_Image_4vkss24vkss24vks.jpg" alt="Image 1">
+                 <div class="overlay">Проект</div>
+                 <div class="details">Просмотреть подробнее</div>
+             </div>
+             <div class="image-container left">
+                 <img src="source/Gemini_Generated_Image_hpt95ehpt95ehpt9.jpg" alt="Image 2">
+                 <div class="overlay">Проект</div>
+                 <div class="details">Просмотреть подробнее</div>
+             </div>
+             <div class="image-container right">
+                 <img src="source/Gemini_Generated_Image_oef914oef914oef9 (1).jpg" alt="Image 3">
+                 <div class="overlay">Проект</div>
+                 <div class="details">Просмотреть подробнее</div>
+             </div>
+         </div>
+     </div>
+ 
+     <div class="modal" id="modal">
+         <div class="modal-content">
+             <img src="" alt="Expanded Image" id="modal-image">
+             <div class="modal-text" id="modal-text">
+                 <h2>Описание Проекта</h2>
+                 <p>Описание текущего проекта, его детали и ключевые моменты.</p>
+             </div>
+         </div>
+         <span class="close" id="close-modal">&times;</span>
+     </div>
+     <script src="styles/project.js"></script>
+ </section>
+
+<!-- КОНТАКТЫ -->
+<section id="contact1" class="contact1">
+    <h2 id="follow" style="margin-left: 9%;">Свяжись со мной</h2>
+    <p style="margin-left: 10%;">makaka@gmail.com</p>
+
+    <div id="contact21">
+        <ul>
+            <li><a href="https://web.telegram.org/" target="_blank" rel="noopener" itemprop="sameAs">
+                <img src="source/telegram.png" alt="telegram" class="default-img">
+                <img src="source/telegram_2.png" alt="telegram-hover" class="hover-img">
+            </a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" itemprop="sameAs">
+                <img src="source/instagram.png" alt="instagram" class="default-img">
+                <img src="source/instagram_2.png" alt="instagram-hover" class="hover-img">
+            </a></li>
+            <li><a href="https://discord.com/" target="_blank" rel="noopener" itemprop="sameAs">
+                <img src="source/discord.png" alt="discord" class="default-img">
+                <img src="source/discord_2.png" alt="discord-hover" class="hover-img">
+            </a></li>
+            <li><a href="https://x.com" target="_blank" rel="noopener" itemprop="sameAs">
+                <img src="source/twitter-alt.png" alt="X" class="default-img">
+                <img src="source/twitter-alt_2.png" alt="X-hover" class="hover-img">
+            </a></li>
+        </ul>
+    </div>
+</section>
+
+</body>
+</html>
+
